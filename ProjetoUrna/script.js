@@ -44,6 +44,12 @@ function atualizaInterface() {
     seuVotoPara.getElementsByClassName.display = 'block';
     aviso.style.display = 'block';
     descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
+    
+    let fotosHtml = '';
+    for(let i in candidato.fotos) {
+      fotosHtml += `<div class="d-1-imagem"><img src="./images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+    }
+    lateral.innerHTML = fotosHtml;
   }
 }
 
