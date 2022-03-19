@@ -6,15 +6,15 @@ let etapas = [
       {
         numero: '12634',
         nome: 'ROBERVALDO',
-        partido: 'PDT',
+        partido: 'CGI',
         fotos:[
-          {url: './images/iman.jpg', legenda: 'Vereador'}
+          {url: '.iman.jpg', legenda: 'Vereador'}
         ]
       },
       {
         numero: '13445',
         nome: 'BARTOLOMEU',
-        partido: 'PT',
+        partido: 'WTF',
         fotos: [
           {url: '12312.jpg', legenda: 'Vereador'}
         ]
@@ -28,21 +28,21 @@ let etapas = [
       {
         numero: '12',
         nome: 'Batman',
-        partido: 'PSB',
+        partido: 'LJ',
         vice: 'Lex Luthor',
         fotos: [
-          {url: '.images/', legenda: 'Prefeito'},
-          {url: '.images/', legenda: 'Vice-Prefeito', small: true}
+          {url: 'candidatobatman.jpg', legenda: 'Prefeito'},
+          {url: 'lluthor.jpg', legenda: 'Vice-Prefeito', small: true}
         ]
       },
       {
-        numero: '12',
-        nome: 'Batman',
-        partido: 'PSB',
+        numero: '13',
+        nome: 'Superman',
+        partido: 'LJ',
         vice: 'Lex Luthor',
         fotos: [
-          {url: '.images/', legenda: 'Prefeito'},
-          {url: '.images/', legenda: 'Vice-Prefeito', small: true}
+          {url: 'superman.jpg/', legenda: 'Prefeito'},
+          {url: 'lluthor.jpg/', legenda: 'Vice-Prefeito', small: true}
         ]
       },
     ]

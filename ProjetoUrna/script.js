@@ -106,7 +106,7 @@ function confirma(){
     if(etapas[etapaAtual] !== undefined) {
       comecarEtapa();
     } else {
-      descricao.innerHTML = `<div class="aviso--grande pisca">FIM</div>`;
+      descricao.innerHTML = `<div class="aviso--grande2 pisca">FIM</div>`;
     }
   }
 }
